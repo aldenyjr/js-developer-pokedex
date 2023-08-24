@@ -10,7 +10,6 @@ const openDetailPokemon = (pokemonId) => {
 };
 
 function createDatailPokemon(pokemonDetail) {
-  console.log(pokemonDetail);
   modalContainer.innerHTML = `
   <main class="modal ${pokemonDetail.type}">
         <div class="container-button">
